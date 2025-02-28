@@ -22,3 +22,28 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build and dependency files
+/target/
+/*.jar
+/*.war
+/*.ear
+
+# Ignore log files
+*.log
+/logs/
+/*.log.*
+
+# Ignore environment variables and credentials
+.env
+application.properties
+application.yml
