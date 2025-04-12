@@ -1,2 +1,2 @@
 # BookHive
-A library management system to manage the catalog of books, members, and borrowing/returning processes.
+Full Stack E-Commerce platform for books search, checkout, review etc.
